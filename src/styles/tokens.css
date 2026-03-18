@@ -1,0 +1,43 @@
+:root {
+  /* Brand palette — fixed */
+  --deep-atlantic: #0B1D2C;
+  --granite: #1C2E3A;
+  --tidepool-blue: #2D7D9A;
+  --tidepool-blue-text: #3a9bbb;
+  --sea-glass: #5BB8A6;
+  --sea-glass-muted: #4a9989;
+  --periwinkle: #7BAFC4;
+  --urchin: #D4845A;
+  --barnacle: #E8DDD0;
+  --foam: #F4F0EB;
+  --morning-fog: #B8C4CB;
+  --sand-bar: #D6CBBA;
+  --starfish: #C9563A;
+
+  /* Fonts — fixed */
+  --font-display: 'DM Serif Display', Georgia, serif;
+  --font-body: 'IBM Plex Sans', sans-serif;
+  --font-mono: 'IBM Plex Mono', monospace;
+
+  /* Semantic tokens — dark mode */
+  --bg-page: #0a1620;
+  --bg-surface: #15242f;
+  --bg-raised: var(--granite);
+  --bg-input: #0f1d28;
+  --bg-table-alt: #0f2230;
+  --bg-header: rgba(10, 22, 32, 0.88);
+
+  --text-primary: var(--foam);
+  --text-secondary: var(--morning-fog);
+  --text-muted: #8a9dad;
+
+  --border-default: rgba(255, 255, 255, 0.1);
+  --border-subtle: rgba(255, 255, 255, 0.08);
+  --border-table: rgba(255, 255, 255, 0.06);
+
+  --shadow-card: 0 8px 32px rgba(0, 0, 0, 0.4), 0 1px 2px rgba(0, 0, 0, 0.3);
+  --shadow-table: 0 2px 8px rgba(0, 0, 0, 0.25);
+
+  --pill-focus-ring: var(--deep-atlantic);
+  --row-hover: rgba(91, 184, 166, 0.06);
+}
