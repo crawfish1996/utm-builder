@@ -73,7 +73,7 @@ export default function UrlInput({ value, onChange }) {
           onChange={handleChange}
           onFocus={() => setFocused(true)}
           onBlur={handleBlur}
-          placeholder="yoursite.com/landing-page"
+          placeholder={focused ? '' : 'yoursite.com/landing-page'}
           autoComplete="url"
           spellCheck={false}
           aria-describedby={showError ? 'url-error' : undefined}
