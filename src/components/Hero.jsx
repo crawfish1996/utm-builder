@@ -16,8 +16,8 @@ export default function Hero() {
       />
       <div className="relative max-w-5xl mx-auto text-center">
         <h1
-          className="text-4xl md:text-[48px] leading-tight mb-5"
-          style={{ fontFamily: 'var(--font-display)', color: 'var(--text-primary)' }}
+          className="text-4xl md:text-[48px] leading-tight mb-5 font-semibold tracking-tight"
+          style={{ fontFamily: 'var(--font-body)', color: 'var(--text-primary)' }}
         >
           Build clean UTM links, <span style={{ color: 'var(--sea-glass)' }}>every time.</span>
         </h1>
